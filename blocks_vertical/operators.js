@@ -341,6 +341,30 @@ Blockly.Blocks['operator_letter_of'] = {
   }
 };
 
+Blockly.Blocks['operator_index_of'] = {
+  /**
+   * Block for "index of _ in _" operator.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.OPERATORS_INDEXOF,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "SUBST"
+        },
+        {
+          "type": "input_value",
+          "name": "STRING"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_number"]
+    });
+  }
+};
+
 Blockly.Blocks['operator_length'] = {
   /**
    * Block for string length operator.
