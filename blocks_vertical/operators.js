@@ -293,7 +293,7 @@ Blockly.Blocks['operator_not'] = {
   }
 };
 
-Blockly.Blocks['operator_ifElseRep'] = {
+Blockly.Blocks['operator_ifelserep'] = {
   /**
    * Block for "_ if < condition > else _" reporter.
    * @this Blockly.Block
