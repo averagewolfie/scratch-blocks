@@ -38,6 +38,7 @@ Blockly.Msg.CONTROL_FOREVER = 'forever';
 Blockly.Msg.CONTROL_REPEAT = 'repeat %1';
 Blockly.Msg.CONTROL_IF = 'if %1 then';
 Blockly.Msg.CONTROL_ELSE = 'else';
+Blockly.Msg.CONTROL_IF_ELSE_REP = '%1 if %2 else %3';
 Blockly.Msg.CONTROL_STOP = 'stop';
 Blockly.Msg.CONTROL_STOP_ALL = 'all';
 Blockly.Msg.CONTROL_STOP_THIS = 'this script';
