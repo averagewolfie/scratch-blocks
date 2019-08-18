@@ -484,7 +484,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '</shadow>' +
       '</value>' +
     '</block>' +
-    '<block type="operator_ifelse" id="operator_ifelse">' +
+    '<block type="operator_index_to" id="operator_index_to">' +
       '<value name="SUBST">' +
         '<shadow type="text">' +
           '<field name="TEXT">hello</field>' +
