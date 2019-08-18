@@ -192,7 +192,7 @@ Blockly.Msg.OPERATORS_EQUALS = '%1 = %2';
 Blockly.Msg.OPERATORS_AND = '%1 and %2';
 Blockly.Msg.OPERATORS_OR = '%1 or %2';
 Blockly.Msg.OPERATORS_NOT = 'not %1';
-Blockly.Msg.OPERATORS_INDEXTO = '%1 if %2 else %3';
+Blockly.Msg.OPERATORS_IFELSEREP = '%1 if %2 else %3';
 Blockly.Msg.OPERATORS_JOIN = 'join %1 %2';
 Blockly.Msg.OPERATORS_JOIN_APPLE = 'apple';
 Blockly.Msg.OPERATORS_JOIN_BANANA = 'banana';
