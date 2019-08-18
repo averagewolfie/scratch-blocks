@@ -4162,6 +4162,7 @@ Blockly.ScratchMsgs.locales["en"] =
     "OPERATORS_AND": "%1 and %2",
     "OPERATORS_OR": "%1 or %2",
     "OPERATORS_NOT": "not %1",
+    "OPERATORS_IFELSE": "%1 if condition else %2",
     "OPERATORS_JOIN": "join %1 %2",
     "OPERATORS_JOIN_APPLE": "apple",
     "OPERATORS_JOIN_BANANA": "banana",
