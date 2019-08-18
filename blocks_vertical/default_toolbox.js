@@ -461,12 +461,12 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="operator_or" id="operator_or"></block>' +
     '<block type="operator_not" id="operator_not"></block>' +
     '<block type="operator_if_else" id="operator_if_else">' +
-      '<value name="TRUE">' +
+      '<value name="VALUE1">' +
         '<shadow type="text">' +
           '<field name="TEXT">hello</field>' +
         '</shadow>' +
       '</value>' +
-      '<value name="FALSE">' +
+      '<value name="VALUE2">' +
         '<shadow type="text">' +
           '<field name="TEXT">world</field>' +
         '</shadow>' +
