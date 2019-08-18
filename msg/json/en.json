@@ -147,7 +147,7 @@
     "OPERATORS_AND": "%1 and %2",
     "OPERATORS_OR": "%1 or %2",
     "OPERATORS_NOT": "not %1",
-    "OPERATORS_INDEXTO": "%1 if %2 else %3",
+    "OPERATORS_IFELSEREP": "%1 if %2 else %3",
     "OPERATORS_JOIN": "join %1 %2",
     "OPERATORS_JOIN_APPLE": "apple",
     "OPERATORS_JOIN_BANANA": "banana",
