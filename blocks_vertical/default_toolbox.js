@@ -293,6 +293,18 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="control_forever" id="control_forever"></block>' +
     '<block type="control_if" id="control_if"></block>' +
     '<block type="control_if_else" id="control_if_else"></block>' +
+    '<block type="control_if_else_rep" id="control_if_else_rep">' +
+      '<value name="TRUE">' +
+        '<shadow type="text">' +
+          '<field name="TEXT">hello</field>' +
+        '</shadow>' +
+      '</value>' +
+      '<value name="FALSE">' +
+        '<shadow type="text">' +
+          '<field name="TEXT">world</field>' +
+        '</shadow>' +
+      '</value>' +
+    '</block>' +
     '<block type="control_wait_until" id="control_wait_until"></block>' +
     '<block type="control_repeat_until" id="control_repeat_until"></block>' +
     '<block type="control_stop" id="control_stop"></block>' +
