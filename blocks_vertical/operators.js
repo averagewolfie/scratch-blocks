@@ -293,6 +293,30 @@ Blockly.Blocks['operator_not'] = {
   }
 };
 
+Blockly.Blocks['operator_ifElseRep'] = {
+  /**
+   * Block for "_ if < condition > else _" reporter.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.OPERATORS_IFELSEREP,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "SUBST"
+        },
+        {
+          "type": "input_value",
+          "name": "STRING"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_number"]
+    });
+  }
+};
+
 Blockly.Blocks['operator_join'] = {
   /**
    * Block for string join operator.
@@ -349,30 +373,6 @@ Blockly.Blocks['operator_index_of'] = {
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.OPERATORS_INDEXOF,
-      "args0": [
-        {
-          "type": "input_value",
-          "name": "SUBST"
-        },
-        {
-          "type": "input_value",
-          "name": "STRING"
-        }
-      ],
-      "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_number"]
-    });
-  }
-};
-
-Blockly.Blocks['operator_index_to'] = {
-  /**
-   * Block for "index of _ in _" operator.
-   * @this Blockly.Block
-   */
-  init: function() {
-    this.jsonInit({
-      "message0": Blockly.Msg.OPERATORS_INDEXTO,
       "args0": [
         {
           "type": "input_value",
