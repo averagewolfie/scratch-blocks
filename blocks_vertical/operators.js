@@ -365,14 +365,14 @@ Blockly.Blocks['operator_index_of'] = {
   }
 };
 
-Blockly.Blocks['operator_ifelse'] = {
+Blockly.Blocks['operator_index_to'] = {
   /**
-   * Block for...
+   * Block for "index of _ in _" operator.
    * @this Blockly.Block
    */
   init: function() {
     this.jsonInit({
-      "message0": Blockly.Msg.OPERATORS_IFELSE,
+      "message0": Blockly.Msg.OPERATORS_INDEXTO,
       "args0": [
         {
           "type": "input_value",
