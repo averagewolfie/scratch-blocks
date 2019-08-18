@@ -307,11 +307,11 @@ Blockly.Blocks['operator_if_else'] = {
           "type": "input_value",
           "name": "TRUE"
         },
-        {
+        /*{
           "type": "input_value",
           "name": "CONDITION",
           "check": "Boolean"
-        },
+        },*/
         {
           "type": "input_value",
           "name": "FALSE"
