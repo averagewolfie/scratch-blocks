@@ -4167,7 +4167,7 @@ Blockly.ScratchMsgs.locales["en"] =
     "OPERATORS_LETTEROF": "letter %1 of %2",
     "OPERATORS_LETTEROF_APPLE": "a",
     "OPERATORS_INDEXOF": "index of %1 in %2",
-    "OPERATORS_IFELSE": "%1 if condition else %2",
+    "OPERATORS_INDEXTO": "index of %1 in %2",
     "OPERATORS_LENGTH": "length of %1",
     "OPERATORS_CONTAINS": "%1 contains %2?",
     "OPERATORS_MOD": "%1 mod %2",
