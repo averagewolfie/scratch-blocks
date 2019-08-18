@@ -305,7 +305,7 @@ Blockly.Blocks['operator_if_else'] = {
       "args0": [
         {
           "type": "input_value",
-          "name": "TRUE"
+          "name": "VALUE1"
         },
         /*{
           "type": "input_value",
@@ -314,7 +314,7 @@ Blockly.Blocks['operator_if_else'] = {
         },*/
         {
           "type": "input_value",
-          "name": "FALSE"
+          "name": "VALUE2"
         }
       ],
       "category": Blockly.Categories.operators,
