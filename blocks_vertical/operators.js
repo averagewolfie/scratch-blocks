@@ -304,15 +304,20 @@ Blockly.Blocks['operator_ifElseRep'] = {
       "args0": [
         {
           "type": "input_value",
-          "name": "SUBST"
+          "name": "VALUE1"
         },
         {
           "type": "input_value",
-          "name": "STRING"
+          "name": "CONDITION",
+          "check": "Boolean"
+        },
+        {
+          "type": "input_value",
+          "name": "VALUE0"
         }
       ],
       "category": Blockly.Categories.operators,
-      "extensions": ["colours_operators", "output_number"]
+      "extensions": ["colours_operators", "output_string"]
     });
   }
 };
