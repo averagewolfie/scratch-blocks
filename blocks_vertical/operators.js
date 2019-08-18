@@ -293,36 +293,6 @@ Blockly.Blocks['operator_not'] = {
   }
 };
 
-Blockly.Blocks['operator_if_else'] = {
-  /**
-   * Block for if-else reporter.
-   * @this Blockly.Block
-   */
-  init: function() {
-    this.jsonInit({
-      "id": "control_if_else_rep",
-      "message0": Blockly.Msg.OPERATORS_IF_ELSE,
-      "args0": [
-        {
-          "type": "input_value",
-          "name": "VALUE1"
-        },
-        /*{
-          "type": "input_value",
-          "name": "CONDITION",
-          "check": "Boolean"
-        },*/
-        {
-          "type": "input_value",
-          "name": "VALUE2"
-        }
-      ],
-      "category": Blockly.Categories.operators,
-      "extensions": ["colours_control", "output_string"]
-    });
-  }
-};
-
 Blockly.Blocks['operator_join'] = {
   /**
    * Block for string join operator.
@@ -379,6 +349,30 @@ Blockly.Blocks['operator_index_of'] = {
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.OPERATORS_INDEXOF,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "SUBST"
+        },
+        {
+          "type": "input_value",
+          "name": "STRING"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_number"]
+    });
+  }
+};
+
+Blockly.Blocks['operator_ifelse'] = {
+  /**
+   * Block for...
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.OPERATORS_IFELSE,
       "args0": [
         {
           "type": "input_value",
