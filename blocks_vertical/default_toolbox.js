@@ -293,18 +293,6 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="control_forever" id="control_forever"></block>' +
     '<block type="control_if" id="control_if"></block>' +
     '<block type="control_if_else" id="control_if_else"></block>' +
-    '<block type="control_if_else_rep" id="control_if_else_rep">' +
-      '<value name="TRUE">' +
-        '<shadow type="text">' +
-          '<field name="TEXT">hello</field>' +
-        '</shadow>' +
-      '</value>' +
-      '<value name="FALSE">' +
-        '<shadow type="text">' +
-          '<field name="TEXT">world</field>' +
-        '</shadow>' +
-      '</value>' +
-    '</block>' +
     '<block type="control_wait_until" id="control_wait_until"></block>' +
     '<block type="control_repeat_until" id="control_repeat_until"></block>' +
     '<block type="control_stop" id="control_stop"></block>' +
@@ -460,18 +448,6 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="operator_and" id="operator_and"></block>' +
     '<block type="operator_or" id="operator_or"></block>' +
     '<block type="operator_not" id="operator_not"></block>' +
-    '<block type="operator_if_else" id="operator_if_else">' +
-      '<value name="VALUE1">' +
-        '<shadow type="text">' +
-          '<field name="TEXT">hello</field>' +
-        '</shadow>' +
-      '</value>' +
-      '<value name="VALUE2">' +
-        '<shadow type="text">' +
-          '<field name="TEXT">world</field>' +
-        '</shadow>' +
-      '</value>' +
-    '</block>' +
     '<block type="operator_join" id="operator_join">' +
       '<value name="STRING1">' +
         '<shadow type="text">' +
@@ -497,6 +473,18 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
       '</value>' +
     '</block>' +
     '<block type="operator_index_of" id="operator_index_of">' +
+      '<value name="SUBST">' +
+        '<shadow type="text">' +
+          '<field name="TEXT">hello</field>' +
+        '</shadow>' +
+      '</value>' +
+      '<value name="STRING">' +
+        '<shadow type="text">' +
+          '<field name="TEXT">world</field>' +
+        '</shadow>' +
+      '</value>' +
+    '</block>' +
+    '<block type="operator_ifelse" id="operator_ifelse">' +
       '<value name="SUBST">' +
         '<shadow type="text">' +
           '<field name="TEXT">hello</field>' +
