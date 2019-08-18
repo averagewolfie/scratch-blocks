@@ -4017,6 +4017,7 @@ Blockly.ScratchMsgs.locales["en"] =
     "CONTROL_REPEAT": "repeat %1",
     "CONTROL_IF": "if %1 then",
     "CONTROL_ELSE": "else",
+    "CONTROL_IF_ELSE_REP": "%1 if %2 else %3",
     "CONTROL_STOP": "stop",
     "CONTROL_STOP_ALL": "all",
     "CONTROL_STOP_THIS": "this script",
