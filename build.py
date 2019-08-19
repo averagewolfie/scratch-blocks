@@ -51,7 +51,7 @@ CLOSURE_COMPILER = REMOTE_COMPILER
 CLOSURE_DIR_NPM = "node_modules"
 CLOSURE_ROOT_NPM = os.path.join("node_modules")
 CLOSURE_LIBRARY_NPM = "google-closure-library"
-CLOSURE_COMPILER_NPM = "google-closure-compiler"
+CLOSURE_COMPILER_NPM = "google-closure-compiler.cmd"
 
 def import_path(fullpath):
   """Import a file with full path specification.
@@ -325,7 +325,7 @@ class Gen_compressed(threading.Thread):
       # Build the final args array by prepending google-closure-compiler to
       # dash_args and dropping any falsy members
       args = []
-      for group in [["google-closure-compiler"], dash_args]:
+      for group in [[CLOSURE_COMPILER_NPM], dash_args]:
         args.extend(filter(lambda item: item, group))
 
       proc = subprocess.Popen(args, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
@@ -472,7 +472,7 @@ class Gen_compressed(threading.Thread):
         print("Size changed from %d KB to %d KB (%d%%)." % (
             original_kb, compressed_kb, ratio))
       else:
-        print("UNKNOWN ERROR")
+        print("UNKNOWN ERROR: " + target_filename)
 
 
 class Gen_langfiles(threading.Thread):
