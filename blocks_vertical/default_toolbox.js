@@ -484,19 +484,14 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '</shadow>' +
       '</value>' +
     '</block>' +
-    '<block type="operator_index_to" id="operator_index_to">' +
-      '<value name="SUBST">' +
-        '<shadow type="text">' +
-          '<field name="TEXT">hello</field>' +
-        '</shadow>' +
-      '</value>' +
+    '<block type="operator_length" id="operator_length">' +
       '<value name="STRING">' +
         '<shadow type="text">' +
           '<field name="TEXT">world</field>' +
         '</shadow>' +
       '</value>' +
     '</block>' +
-    '<block type="operator_length" id="operator_length">' +
+    '<block type="operator_casesense" id="operator_casesense">' +
       '<value name="STRING">' +
         '<shadow type="text">' +
           '<field name="TEXT">world</field>' +

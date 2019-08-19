@@ -200,6 +200,7 @@ Blockly.Msg.OPERATORS_LETTEROF = 'letter %1 of %2';
 Blockly.Msg.OPERATORS_LETTEROF_APPLE = 'a';
 Blockly.Msg.OPERATORS_INDEXOF = 'index of %1 in %2';
 Blockly.Msg.OPERATORS_LENGTH = 'length of %1';
+Blockly.Msg.OPERATORS_CASESENSE = 'case sensitive %1';
 Blockly.Msg.OPERATORS_CONTAINS = '%1 contains %2?';
 Blockly.Msg.OPERATORS_MOD = '%1 mod %2';
 Blockly.Msg.OPERATORS_ROUND = 'round %1';
