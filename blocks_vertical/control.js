@@ -169,38 +169,6 @@ Blockly.Blocks['control_if_else'] = {
   }
 };
 
-Blockly.Blocks['control_if_else_rep'] = {
-  /**
-   * Block for if-else reporter.
-   * @this Blockly.Block
-   */
-  init: function() {
-    this.jsonInit({
-      "id": "control_if_else_rep",
-      "message0": Blockly.Msg.CONTROL_IF_ELSE_REP,
-      "args0": [
-        {
-          "type": "input_value",
-          "name": "TRUE"
-        },
-        {
-          "type": "input_value",
-          "name": "CONDITION",
-          "check": "Boolean"
-        },
-        {
-          "type": "input_value",
-          "name": "FALSE"
-        }
-      ],
-      "output": null,
-      "category": Blockly.Categories.control,
-      "extensions": ["colours_control"],
-      "outputShape": Blockly.OUTPUT_SHAPE_ROUND
-    });
-  }
-};
-
 Blockly.Blocks['control_stop'] = {
   /**
    * Block for stop all scripts.
