@@ -414,6 +414,26 @@ Blockly.Blocks['operator_length'] = {
   }
 };
 
+Blockly.Blocks['operator_casesense'] = {
+  /**
+   * Block for case sensitivity operator.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.OPERATORS_CASESENSE,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "STRING"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_string"]
+    });
+  }
+};
+
 Blockly.Blocks['operator_contains'] = {
   /**
    * Block for _ contains _ operator
